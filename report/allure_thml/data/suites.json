@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "case.mp",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "Test_Login",
+        "children" : [ {
+          "name" : "test_login[login0]",
+          "uid" : "66ea0a32ef90aa9f",
+          "parentUid" : "54edfa33eb69deafd72e5b51306b7e08",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598434936244,
+            "stop" : 1598434942909,
+            "duration" : 6665
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "['15777777777', '246811', '请求参数错误']" ]
+        }, {
+          "name" : "test_login[login1]",
+          "uid" : "a56c8ffe3d0b911c",
+          "parentUid" : "54edfa33eb69deafd72e5b51306b7e08",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598434942927,
+            "stop" : 1598434949629,
+            "duration" : 6702
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "['15777777777', '', '手机号和验证码不能为空']" ]
+        }, {
+          "name" : "test_login[login2]",
+          "uid" : "c9d0a0e69f937cb7",
+          "parentUid" : "54edfa33eb69deafd72e5b51306b7e08",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598434949649,
+            "stop" : 1598434956779,
+            "duration" : 7130
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "['15777777777', '246810', '登陆成功']" ]
+        } ],
+        "uid" : "54edfa33eb69deafd72e5b51306b7e08"
+      } ],
+      "uid" : "2d80ff658f89407524d9fa9a2898f4e5"
+    } ],
+    "uid" : "1ce536a0a895f6300c151295e589a3fd"
+  } ]
+}

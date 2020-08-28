@@ -1,0 +1,8 @@
+[35mDEBUG   [0m test:base_page.py:56 显示等待寻找元素出错css selector.el-message,
+跟踪路径:
+文件路径：D:\code\Hmtt_UI_Test\base\web_base\base_page.py 方法名：find_elt_wait 行数：56 <--
+文件路径：D:\code\Hmtt_UI_Test\base\web_base\base_page.py 方法名：find_elt 行数：40 <--
+文件路径：D:\code\Hmtt_UI_Test\page\mp\login.py 方法名：find_prompt 行数：34 <--
+文件路径：D:\code\Hmtt_UI_Test\page\mp\login.py 方法名：get_text_prompt 行数：51 <--
+文件路径：D:\code\Hmtt_UI_Test\page\mp\login.py 方法名：login 行数：72 <--
+文件路径：D:\code\Hmtt_UI_Test\case\mp\test_login.py 方法名：test_login 行数：22 <--

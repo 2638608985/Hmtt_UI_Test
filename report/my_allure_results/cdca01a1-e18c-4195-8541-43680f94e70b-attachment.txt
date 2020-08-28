@@ -1,0 +1,7 @@
+[35mDEBUG   [0m test:base_page.py:57 显示等待寻找元素出错class nameandroid.widget.HorizontalScrollView
+跟踪路径:
+文件路径：D:\code\Hmtt_UI_Test\base\app_base\base_page.py 方法名：find_elt_wait 行数：57 <--
+文件路径：D:\code\Hmtt_UI_Test\base\app_base\base_page.py 方法名：find_elt 行数：41 <--
+文件路径：D:\code\Hmtt_UI_Test\page\app\home.py 方法名：find_channel 行数：24 <--
+文件路径：D:\code\Hmtt_UI_Test\page\app\home.py 方法名：select_channel 行数：53 <--
+文件路径：D:\code\Hmtt_UI_Test\case\app\test_home.py 方法名：test_select_channel 行数：19 <--

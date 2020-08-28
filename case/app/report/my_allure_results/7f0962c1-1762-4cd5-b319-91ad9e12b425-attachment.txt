@@ -1,0 +1,6 @@
+DEBUG    test:base_page.py:56 显示等待寻找元素出错class nameandroid.widget.ImageView,
+跟踪路径:
+文件路径：D:\code\Hmtt_UI_Test\base\app_base\base_page.py 方法名：find_elt_wait 行数：56 <--
+文件路径：D:\code\Hmtt_UI_Test\base\app_base\base_page.py 方法名：find_elt 行数：40 <--
+文件路径：D:\code\Hmtt_UI_Test\page\app\login.py 方法名：find_main_page 行数：25 <--
+文件路径：D:\code\Hmtt_UI_Test\page\app\login.py 方法名：click_main_page 行数：45 <--

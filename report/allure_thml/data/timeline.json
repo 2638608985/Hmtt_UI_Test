@@ -1,0 +1,69 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-P5SPH9F",
+    "children" : [ {
+      "name" : "95760-MainThread",
+      "children" : [ {
+        "name" : "test_login[login1]",
+        "uid" : "a56c8ffe3d0b911c",
+        "parentUid" : "7d4259c5e7b56e087dc6a304cfafa848",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598434942927,
+          "stop" : 1598434949629,
+          "duration" : 6702
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['15777777777', '', '手机号和验证码不能为空']" ]
+      }, {
+        "name" : "test_login[login2]",
+        "uid" : "c9d0a0e69f937cb7",
+        "parentUid" : "7d4259c5e7b56e087dc6a304cfafa848",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598434949649,
+          "stop" : 1598434956779,
+          "duration" : 7130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['15777777777', '246810', '登陆成功']" ]
+      }, {
+        "name" : "test_login[login0]",
+        "uid" : "66ea0a32ef90aa9f",
+        "parentUid" : "7d4259c5e7b56e087dc6a304cfafa848",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598434936244,
+          "stop" : 1598434942909,
+          "duration" : 6665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['15777777777', '246811', '请求参数错误']" ]
+      } ],
+      "uid" : "7d4259c5e7b56e087dc6a304cfafa848"
+    }, {
+      "name" : "96424-MainThread",
+      "children" : [ {
+        "name" : "test_login[login0]",
+        "uid" : "5c6d4d611d1fd037",
+        "parentUid" : "8065ed2cba93b96ab0786d06c4bc2013",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598432989008,
+          "stop" : 1598432996425,
+          "duration" : 7417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['15777777777', '246810', '登陆成功']" ]
+      } ],
+      "uid" : "8065ed2cba93b96ab0786d06c4bc2013"
+    } ],
+    "uid" : "98a28a6c8bb035baf534f52560427b69"
+  } ]
+}
