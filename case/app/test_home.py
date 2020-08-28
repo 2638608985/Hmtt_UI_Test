@@ -14,6 +14,6 @@ from page.app.home import HomeProxy
 class Test_Home:
     @pytest.mark.run(order=2)
     def test_select_channel(self):
-        print("--------------2---------------test_select_channel-------------2--------------")
+        print("--------------order_v1.1.1--push------------")
         location = (By.XPATH, "//*[contains(@text,'js')]")
         HomeProxy().select_channel(location)
