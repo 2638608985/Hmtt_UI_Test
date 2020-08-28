@@ -60,7 +60,6 @@ class LoginProxy(BaseProxy):
     def __init__(self):
         self.loginHandle = LoginHandle()
 
-    @allure.label()
     def login(self, username, code, check):
         """
         登陆方法

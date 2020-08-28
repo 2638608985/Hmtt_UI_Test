@@ -17,8 +17,8 @@ from utils.driverUtil import DriverUtil
 def driver():
     """所有用例执行前、后执行"""
     log.create_log()
-    # driver = DriverUtil.get_web_driver(wait=0)
-    driver = DriverUtil.get_app_driver()
+    driver = DriverUtil.get_web_driver(wait=0)
+    # driver = DriverUtil.get_app_driver()
     yield driver
     DriverUtil.quit_driver()
 
